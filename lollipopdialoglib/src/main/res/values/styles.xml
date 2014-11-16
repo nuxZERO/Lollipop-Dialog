@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="LargeText">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Text style -->
+    <style name="Display4">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">112sp</item>
+    </style>
+
+    <style name="Display3">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">56sp</item>
+    </style>
+
+    <style name="Display2">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">45sp</item>
+    </style>
+
+    <style name="Display1">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="Headline">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+    
+    <style name="Title">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="Subhead">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Body2">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Body1">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="Caption">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- Button style -->
+    <style name="DefaultButton" parent="Button">
+        <item name="android:layout_height">@dimen/medium_button_height</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@drawable/transparent_bg</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:textColor">@color/primary_color</item>
+    </style>
+
+</resources>
